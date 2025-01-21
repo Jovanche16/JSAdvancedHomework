@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced JS Homework 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Reminder App</h1>
+      <div class="form">
+        <input type="text" id="title" placeholder="Enter Title" required />
+        <select id="priority">
+          <option value="Low">Low</option>
+          <option value="Medium">Medium</option>
+          <option value="High">High</option>
+        </select>
+        <input type="color" id="color" value="#000000" />
+        <textarea
+          id="description"
+          placeholder="Enter Description"
+          rows="4"
+        ></textarea>
+        <input type="datetime-local" id="time" required />
+        <button id="addReminder">Add Reminder</button>
+      </div>
+      <div>
+        <button id="showReminders">Show Reminders</button>
+      </div>
+      <div id="remindersContainer"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
