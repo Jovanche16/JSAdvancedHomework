@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image:
+    url('assets/paws.png'); 
+  background-size: cover; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.865);
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.271);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #2c3e50;
+}
+
+button {
+  background-color: #8b6ac9;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #502c91;
+}
+
+select {
+  background-color: rgba(255, 255, 255, 0.537);
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 250px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+}
+
+#dogImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 20px;
+  max-height: 400px;
+  object-fit: contain;
+}
