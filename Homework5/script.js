@@ -9,25 +9,20 @@ class Product {
 
 let rearrangedProducts = [
     new Product('Strawberries', 'Food', true, 14),
-    new Product('Salmon', 'Meat', true, 32),
     new Product('Tomato', 'Food', true, 18),
     new Product('Butter', 'Dairy', true, 20),
     new Product('Cheese', 'Dairy', false, 30),
     new Product('Banana', 'Food', false, 10),
-    new Product('Beef', 'Meat', false, 40),
     new Product('Pork', 'Meat', false, 38),
-    new Product('Lettuce', 'Food', true, 8),
     new Product('Cucumber', 'Food', false, 7),
     new Product('Apple', 'Food', true, 15),
     new Product('Milk', 'Dairy', false, 25),
     new Product('Grapes', 'Food', true, 16),
     new Product('Chicken', 'Meat', true, 35),
     new Product('Orange', 'Food', true, 12),
-    new Product('Bread', 'Food', false, 5),
     new Product('Eggplant', 'Food', false, 22),
     new Product('Fish', 'Meat', false, 28),
-    new Product('Peach', 'Food', false, 24),
-    new Product('Yogurt', 'Dairy', true, 10)
+    new Product('Peach', 'Food', false, 24)
 ];
 
 
