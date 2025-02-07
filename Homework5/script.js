@@ -7,7 +7,7 @@ class Product {
     }
 }
 
-let product = [
+let products = [
     new Product('Strawberries', 'Food', true, 14),
     new Product('Tomato', 'Food', true, 18),
     new Product('Butter', 'Dairy', true, 20),
