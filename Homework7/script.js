@@ -21,8 +21,6 @@ function Animal(name, age) {
 
 function Cat(name, age, color, ownerId) {
     Object.setPrototypeOf(this, new Animal(name, age))
-    this.name = name;
-    this.age = age;
     this.color = color;
     this.ownerId = ownerId;
     this.meow = function () {
